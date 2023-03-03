@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Devlopment",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Developement",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Blockchain Developement",
     icon: creator,
   },
 ];
@@ -62,11 +62,11 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: 'https://img.icons8.com/color/480/000000/c-plus-plus-logo.png',
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: 'https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png',
   },
   {
     name: "JavaScript",
@@ -98,7 +98,7 @@ const technologies = [
   },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: 'https://img.icons8.com/color/480/000000/firebase.png',
   },
   {
     name: "git",
@@ -110,7 +110,7 @@ const technologies = [
   },
   {
     name: "docker",
-    icon: docker,
+    icon: 'https://img.icons8.com/fluency/240/000000/python.png',
   },
 ];
 
