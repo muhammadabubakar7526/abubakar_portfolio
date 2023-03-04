@@ -23,7 +23,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-10 h-10 object-contain" />
           <p className="text-white text=[18px] font-bold flex">
-            Anas &nbsp;<span className="hidden sm:block">| Netixsol</span>
+            Anas &nbsp;<span className="hidden sm:block">| SAYLANI</span>
           </p>
         </Link>
 

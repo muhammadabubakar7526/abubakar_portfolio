@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  artistica,
+  disney,
+  viddeo
 } from "../assets";
 
 export const navLinks = [
@@ -116,149 +119,150 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Trainer",
+    company_name: "Saylani Mass IT Training",
+    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdsejF3nb36TLUVtACC3PHUPLT7mZxAOM0bc3nbtLogQ&s',
+    iconBg: "#ffffff",
+    date: "August 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivered engaging, interactive training sessions.",
+      "Trained students on the latest MERN stack technology.",
+      "Assisted students in developing their final projects.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "React Native Developer",
+  //   company_name: "Tesla",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "The skills & knowledge I gained from the course have helped me immensely in my journey as a web dev.",
+    name: "Talha Unas",
+    designation: "Student",
+    company: "SMIT",
+    image: "https://avatars.githubusercontent.com/u/94473513?v=4",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Anas does.",
+    name: "Naveed Sarver",
+    designation: "CEO",
+    company: "Techloset",
+    image: "https://scontent.flyp4-1.fna.fbcdn.net/v/t1.6435-9/85112704_1021611238217792_5842878822352945152_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=l6cugrvLr9wAX-w0amc&_nc_ht=scontent.flyp4-1.fna&oh=00_AfAEWks2DVl47r_eED-EvT3PzBar5DPiEJWvoUcvKMJC2A&oe=642AD42E",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Anas was always approachable and available to offer guidance throughout the course.",
+    name: "Sheraz Ahmed",
+    designation: "Student",
+    company: "SMIT",
+    image: "https://avatars.githubusercontent.com/u/75482281?s=100&v=4",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Artistica",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Full-stack web application that utilizes OpenAI APIs to generate creative images based on user-provided prompts. The app also features a community platform where users can share and view images.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "OpenAI",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: artistica,
+    source_code_link: "https://github.com/AnasJMirza/artistica",
   },
   {
-    name: "Job IT",
+    name: "Viddio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a video sharing application that functions similarly to YouTube. This platform also has the dark and light mode themes, Authentication (JWT) and all functionality like youtube. Give it a try!",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "firebase",
         color: "pink-text-gradient",
       },
+      
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: viddeo,
+    source_code_link: "https://github.com/AnasJMirza/Youtube-MERN-Clone",
   },
   {
-    name: "Trip Guide",
+    name: "Disney Plus",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a Disney-inspired landing page. The landing page displays a selection of movies and also has the google authentication system powered by firebase. It s a beautiful and responsive UI.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: disney,
+    source_code_link: "https://github.com/AnasJMirza/DisneyPlus-Clone",
   },
 ];
 
