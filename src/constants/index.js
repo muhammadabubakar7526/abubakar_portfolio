@@ -121,7 +121,7 @@ const experiences = [
   {
     title: "Junior Software Developer",
     company_name: "NetixSol",
-    icon: 'https://d25hn4jiqx5f7l.cloudfront.net/companies/logos/medium/netixsol_1668499529.png?1668499529',
+    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKrLx_Z54-gCRqj5sC8FXCqML9Ul1tH-7Hy3jPk2e6sQ&s',
     iconBg: "black",
     date: "Mar 2023 - Present",
     points: [
@@ -187,7 +187,7 @@ const testimonials = [
     name: "Naveed Sarver",
     designation: "CEO",
     company: "Techloset",
-    image: "https://scontent.flyp4-1.fna.fbcdn.net/v/t1.6435-9/85112704_1021611238217792_5842878822352945152_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=l6cugrvLr9wAX-w0amc&_nc_ht=scontent.flyp4-1.fna&oh=00_AfAEWks2DVl47r_eED-EvT3PzBar5DPiEJWvoUcvKMJC2A&oe=642AD42E",
+    image: "https://avatars.githubusercontent.com/u/30401501?v=4",
   },
   {
     testimonial:
