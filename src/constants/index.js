@@ -25,7 +25,7 @@ import {
   threejs,
   artistica,
   disney,
-  viddeo
+  viddeo,
 } from "../assets";
 
 export const navLinks = [
@@ -65,11 +65,11 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: 'https://img.icons8.com/color/480/000000/c-plus-plus-logo.png',
+    icon: "https://img.icons8.com/color/480/000000/c-plus-plus-logo.png",
   },
   {
     name: "CSS 3",
-    icon: 'https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png',
+    icon: "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png",
   },
   {
     name: "JavaScript",
@@ -101,7 +101,7 @@ const technologies = [
   },
   {
     name: "Three JS",
-    icon: 'https://img.icons8.com/color/480/000000/firebase.png',
+    icon: "https://img.icons8.com/color/480/000000/firebase.png",
   },
   {
     name: "git",
@@ -113,17 +113,17 @@ const technologies = [
   },
   {
     name: "docker",
-    icon: 'https://img.icons8.com/fluency/240/000000/python.png',
+    icon: "https://img.icons8.com/fluency/240/000000/python.png",
   },
 ];
 
 const experiences = [
   {
-    title: "Junior Software Developer",
+    title: "Software Developer",
     company_name: "NetixSol",
-    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKrLx_Z54-gCRqj5sC8FXCqML9Ul1tH-7Hy3jPk2e6sQ&s',
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKrLx_Z54-gCRqj5sC8FXCqML9Ul1tH-7Hy3jPk2e6sQ&s",
     iconBg: "black",
-    date: "Mar 2023 - Present",
+    date: "Mar 2022 - Present",
     points: [
       "Developing and maintaining web applications using Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -133,8 +133,8 @@ const experiences = [
   },
   {
     title: "Web Dev Trainer",
-    company_name: "Saylani Mass IT Training",
-    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdsejF3nb36TLUVtACC3PHUPLT7mZxAOM0bc3nbtLogQ&s',
+    company_name: "StartUps Institute of Programming",
+    icon: "https://scontent.flyp2-1.fna.fbcdn.net/v/t39.30808-6/302591806_600532655111861_8648884136478308247_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEwFZ7f1VCleOyxQtK5pJcBGHX3a1erADgYdfdrV6sAOIVbLe0hwJMSEan4_X5qLAHiRuuVnP880IPTKHUykbwE&_nc_ohc=w21RMSBYfZIAb4hdBLv&_nc_ht=scontent.flyp2-1.fna&oh=00_AfCIt-ySpdJ3yYNxhbTHsJdf9nzkm2SVfjPBEEqM9AHtzw&oe=66244CA8",
     iconBg: "#ffffff",
     date: "Aug 2022 - Mar 2023",
     points: [
@@ -143,7 +143,7 @@ const experiences = [
       "Assisted students in developing their final projects.",
     ],
   },
-  
+
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
@@ -183,15 +183,16 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Anas does.",
-    name: "Naveed Sarver",
-    designation: "CEO",
-    company: "Techloset",
-    image: "https://avatars.githubusercontent.com/u/30401501?v=4",
+      "I've never met a web developer who truly cares about their clients' success like Abu Bakar does.",
+    name: "Muhammad Wajid",
+    designation: "Team Lead",
+    company: "Netixsol",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQFI4KHPpoHg_g/profile-displayphoto-shrink_800_800/0/1647540187617?e=1718841600&v=beta&t=yEk38lVhTqEcWubgbxdoRIMWClSUqDvECStm3XsiPoQ",
   },
   {
     testimonial:
-      "Anas was always approachable and available to offer guidance throughout the course.",
+      "Abu Bakar was always approachable and available to offer guidance throughout the course.",
     name: "Sheraz Ahmed",
     designation: "Student",
     company: "SMIT",
@@ -217,7 +218,6 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
-      
     ],
     image: artistica,
     source_code_link: "https://github.com/AnasJMirza/artistica",
@@ -239,7 +239,6 @@ const projects = [
         name: "firebase",
         color: "pink-text-gradient",
       },
-      
     ],
     image: viddeo,
     source_code_link: "https://github.com/AnasJMirza/Youtube-MERN-Clone",

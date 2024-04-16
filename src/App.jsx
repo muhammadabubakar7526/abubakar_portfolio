@@ -13,7 +13,6 @@ import {
 } from "./components";
 
 const App = () => {
-
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
@@ -30,7 +29,6 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-        
       </div>
     </BrowserRouter>
   );
